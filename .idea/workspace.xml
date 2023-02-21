@@ -6,18 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a46985a6-88b0-4037-b03e-286fd887e672" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringBasics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringBasics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringBasics/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringBasics/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringBasics/com/chr/IoC/BossEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringBasics/com/chr/IoC/BossEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringBasics/com/chr/IoC/DirectorEmploye.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringBasics/com/chr/IoC/DirectorEmploye.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringBasics/com/chr/IoC/Employe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringBasics/com/chr/IoC/Employe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringBasics/com/chr/IoC/SecretaryEmploye.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringBasics/com/chr/IoC/SecretaryEmploye.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chr/IoC/BossEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chr/IoC/BossEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chr/IoC/DirectorEmploye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chr/IoC/DirectorEmploye.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chr/IoC/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chr/IoC/Employe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chr/IoC/SecretaryEmploye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chr/IoC/SecretaryEmploye.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

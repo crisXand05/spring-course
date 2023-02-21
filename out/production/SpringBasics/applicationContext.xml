@@ -13,4 +13,7 @@
     <constructor-arg ref="reportDependency"></constructor-arg>
 </bean>
 
+<bean id="bossEmployeBean" class="com.chr.IoC.BossEmployee">
+    <property name="newReport" ref="reportDependency"></property>
+</bean>
 </beans>

@@ -12,9 +12,12 @@ public class Main {
         /* Employe bossEmploye1 = new DirectorEmploye();
         System.out.println(bossEmploye1.getTasks()); */
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        Employe crisandro= context.getBean("employe", Employe.class);
+        /*Employe crisandro= context.getBean("employe", Employe.class);
         System.out.println(crisandro.getTasks());
-        System.out.println(crisandro.getReport());
+        System.out.println(crisandro.getReport());*/
+        Employe jefe = context.getBean("bossEmployeBean", Employe.class);
+        System.out.println(jefe.getTasks());
+        System.out.println(jefe.getReport());
         context.close();
 
     }
