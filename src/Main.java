@@ -14,7 +14,9 @@ public class Main {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         Employe crisandro= context.getBean("employe", Employe.class);
         System.out.println(crisandro.getTasks());
+        System.out.println(crisandro.getReport());
         context.close();
+
     }
     
 }
