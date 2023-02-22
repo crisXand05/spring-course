@@ -15,9 +15,17 @@ public class Main {
         /*Employe crisandro= context.getBean("employe", Employe.class);
         System.out.println(crisandro.getTasks());
         System.out.println(crisandro.getReport());*/
-        Employe jefe = context.getBean("bossEmployeBean", Employe.class);
+        BossEmployee jefe = context.getBean("bossEmployeBean", BossEmployee.class);
         System.out.println(jefe.getTasks());
         System.out.println(jefe.getReport());
+        System.out.println(jefe.getCompanyName());
+        System.out.println(jefe.getEmail());
+
+        SecretaryEmploye secretario = context.getBean("employeBean", SecretaryEmploye.class);
+        System.out.println(secretario.getTasks());
+        System.out.println(secretario.getCompanyName());
+        System.out.println(secretario.getEmail());
+
         context.close();
 
     }
