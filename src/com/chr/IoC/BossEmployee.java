@@ -32,4 +32,12 @@ public class BossEmployee implements Employe {
     public String getReport() {
         return "Reporte generado por el jefe: " + newReport.getReports();
     }
+
+    public void beanInitMethodBean(){
+        System.out.println("Metodo inicial del bean bossEmploye");
+    }
+
+    public void beanFinalMethodBean(){
+        System.out.println("Metodo final del bean");
+    }
 }
