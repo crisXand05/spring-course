@@ -8,17 +8,19 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-3.1.xsd
 ">
-<bean id="reportDependency" class=" com.chr.IoC.Report"></bean>
+    <context:property-placeholder location="classpath:CompanyData.properties"/>
 
-<bean id = "employeBean" class = "com.chr.IoC.SecretaryEmploye">
-    <constructor-arg ref="reportDependency"></constructor-arg>
-    <property name="email" value="secretary@chr.com"></property>
-    <property name="companyName" value="Chr company"></property>
-</bean>
+    <bean id="reportDependency" class=" com.chr.IoC.Report"></bean>
 
-<bean id="bossEmployeBean" class="com.chr.IoC.BossEmployee">
-    <property name="newReport" ref="reportDependency"></property>
-    <property name="email" value="boss@chr.com"></property>
-    <property name="companyName" value="Chr company"></property>
-</bean>
+    <bean id = "employeBean" class = "com.chr.IoC.SecretaryEmploye">
+        <constructor-arg ref="reportDependency"></constructor-arg>
+        <property name="email" value="${email}"></property>
+        <property name="companyName" value="${companyName}"></property>
+    </bean>
+
+    <bean id="bossEmployeBean" class="com.chr.IoC.BossEmployee">
+        <property name="newReport" ref="reportDependency"></property>
+        <property name="email" value="boss@chr.com"></property>
+        <property name="companyName" value="Chr company"></property>
+    </bean>
 </beans>
