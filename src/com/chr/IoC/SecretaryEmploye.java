@@ -3,6 +3,15 @@ package com.chr.IoC;
 public class SecretaryEmploye implements Employe {
     private ReportInterface newReport;
     private String companyName, email;
+    private String code;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 
     public String getCompanyName() {
         return companyName;
