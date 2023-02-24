@@ -2,7 +2,11 @@ package com.chr.annotations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 @Component("empleado")
 public class ExperiencedEmploy implements Employe {
@@ -34,5 +38,17 @@ public class ExperiencedEmploy implements Employe {
     @Override
     public String getReport() {
         return report.getFinancialReport();
+    }
+
+    //ejecucion de codigo despues de creacion del bean
+    @PostConstruct
+    public void afterBean(){
+        System.out.println("afterbean ejecutado");
+    }
+
+    //ejecucion despues de apagar el contenedor de spring
+    @PreDestroy
+    public void afterDestroyBean(){
+        System.out.println("afterDestroyBean");
     }
 }
