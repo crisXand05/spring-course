@@ -37,7 +37,7 @@ public class ExperiencedEmploy implements Employe {
 
     @Override
     public String getReport() {
-        return report.getFinancialReport();
+        return report.getReport();
     }
 
     //ejecucion de codigo despues de creacion del bean

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class FinancialReport implements ReportInterface{
     @Override
-    public String getFinancialReport() {
+    public String getReport() {
         return "Informe financiero";
     }
 }
